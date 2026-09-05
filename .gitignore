@@ -1,0 +1,20 @@
+dl_third_party
+build
+cbuild
+cbuild_*
+AppImage_staging
+linuxdeployqt-6-x86_64.AppImage
+gui_test.log
+
+# https://github.com/miurahr/aqtinstall
+aqtinstall.log
+
+# mac:
+**/.DS_Store
+
+# Qt Creator User File
+*.user
+
+# code coverage-related:
+**/*.profraw
+coverage_reports
